@@ -1,0 +1,13 @@
+<body>
+  <div id="map">
+    {{#each tiles}}
+      {{> tile}}
+    {{/each}}
+  </div>
+  <div class="hidden">{{ resized }}</div>
+</body>
+
+<template name="tile">
+  <div class="tile">&nbsp;</div>
+</template>
+ 

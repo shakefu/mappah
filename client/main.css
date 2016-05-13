@@ -1,1 +1,29 @@
-/* CSS declarations go here */
+html, body, #map {
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#map {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 30px 0px blue inset;
+}
+
+.tile {
+    border: 1px dotted white;
+    width: 10px;
+    height: 10px;
+}
+
+.hidden {
+    position: fixed;
+    top: -1000px;
+    left: -1000px;
+}
